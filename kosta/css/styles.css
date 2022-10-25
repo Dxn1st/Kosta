@@ -1,0 +1,232 @@
+/* Flex styles -------------------------------------------------*/
+header {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  /* Responsivo ----------------*/
+  @media (min-width: 100px) {
+   .leading {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  
+  /* Grid styles -------------------------------------------------*/
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  
+  /* Generic styles ----------------------------------------------*/
+  body {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .cabeca {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 250, 250);
+    
+    
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('https://i.pinimg.com/originals/f8/b2/7d/f8b27d53c369a1413a8876a1d3d1a597.jpg') center rgb(255, 27, 27) no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 5px #000;
+  }
+  
+  .leading-bigtext {
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 24vw;
+    color:aqua
+  }
+  
+  @media (min-width: 700px) {
+    .leading-bigtext {
+      font-size: 140px;
+    }
+  }
+  
+  .leading-text {
+    max-width: 900px;
+    font-size: 6em;
+    line-height: 5em;
+  }
+  
+  .cards {
+    max-width: 1280px;
+    margin: 0 auto 90px;
+    
+  }
+  
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+    height: 317px;
+    width: 115%;
+    object-fit:scale-down;
+    margin-top: -5px;
+    padding-right: 20px;
+    
+  }
+  
+  .article-title {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0); 
+    font-size: 130%;
+    padding-left: 14px;
+    text-align: center;
+  }
+  
+  .container-fluid {
+
+padding-bottom: 60px;
+  }
+
+
+
+  /*rodapé*/
+
+  #myFooter{
+    padding-top:32px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #eee;
+}
+
+#myFooter .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-facebook:hover{
+   color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+#myFooter .fa-instagram:hover{
+    color:purple;
+}
+
+#myFooter .fa-instagram:focus{
+    color:purple;
+}
+
+#myFooter .fa-youtube:hover{
+    color:red;
+}
+
+#myFooter .fa-youtube:focus{
+    color:red;
+}
+
+#myFooter .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+#myFooter .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+.money {
+  
+  text-align: center;
+}
+
