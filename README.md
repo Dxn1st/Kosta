@@ -1,12 +1,13 @@
 ## Kosta
 
 
-🚀 Tecnologias
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-HTML e CSS
+- HTML e CSS
+- JavaScript
 
-💻 Projeto
+## 💻 Projeto
 
-Página de login que simula o formulário de preenchimento de um cadastro.
+Kosta é uma loja de roupas on-line criada para fins de estudo, sendo assim, aplicando um sistema de Slidershow (carrossel) automático, com base em HTML, CSS e JavaScript.
