@@ -14,4 +14,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Kosta é uma loja de roupas on-line criada para fins de estudo (por enquanto), com a aplicação da funcionalidade de Slidershow (carrossel) automático.
+Kosta é uma loja on-line de roupas criada para fins de estudo (por enquanto), com a aplicação da funcionalidade de Slidershow (carrossel) automático.
